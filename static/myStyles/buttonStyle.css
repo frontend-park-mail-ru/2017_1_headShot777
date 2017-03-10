@@ -1,0 +1,19 @@
+
+.btn
+{
+	font-family: Arial;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #CCCCCC;
+	outline: none;
+	cursor:pointer;
+	width: 250px;
+}
+	
+.btn:hover
+{
+	background-color: #FFFFFF;
+}

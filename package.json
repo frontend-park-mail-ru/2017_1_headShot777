@@ -1,0 +1,20 @@
+{
+  "name": "my_package",
+  "version": "1.1.1",
+  "description": "my_web_proga",
+  "main": "index.html",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "yes",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxim/my_package.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
