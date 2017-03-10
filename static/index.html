@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title id = 'myTitle'>Добро пожаловать</title>	
+	<link rel = "stylesheet" type = "text/css" href = "myStyles/bodyStyle.css"/>
+	<link rel = "stylesheet" type = "text/css" href = "myStyles/buttonStyle.css"/>
+	<link rel = "stylesheet" type = "text/css" href = "myStyles/textFieldStyle.css"/>
+</head>
+<body>
+
+<div id = 'mainImage' align = 'right'>
+	<img src = 'myImages/mainImg.png' width = "400px" height = "100px">
+</div>
+
+<h1 id = 'myHeader'>Добро пожаловать</h1><hr><br>
+
+<div id = 'box1'>
+	<form>
+		<p>Логин</p>
+		<input class = 'myField' type = 'text' id = 'textLogin' maxlength = '25' size = '40' placeholder = 'maxim1234' autofocus spellcheck = 'false' autocomplete = 'off'>
+		<p>Пароль</p>
+		<input class = 'myField' type = 'password' id = 'textPassword' maxlength = '25' size = '40' placeholder = 'adppq77g88' spellcheck = 'false' autocomplete = 'off'>
+		<br>
+		<br>
+		<br>
+		<input class = 'btn' type = 'button' value = 'Зарегистрироваться' onclick = 'registrMan()'>
+		<br><br>
+		<input class = 'btn' type = 'button' value = 'Войти в аккаунт' onclick = 'avtorizMan()'>
+	</form>
+	<br>
+	<br>
+	<p id = 'answer'></p>
+</div>
+
+<div id = 'btnMeny'>
+	<br>
+	<input class = 'btn' type = 'button' value = 'Правила игры' onclick = 'gameRules()'>
+	<br><br>
+	<input class = 'btn' type = 'button' value = 'Список всех пользователей' onclick = 'listOfUsers()'>
+	<br><br>
+	<input class = 'btn' type = 'button' value = 'Выход' onclick = 'exitOut()'>
+	<br><br>
+	<p id = 'contentResult'></p>
+</div>
+
+<script src = 'myModules/initVariablesAndFunctions.js'></script>
+<script src = 'myModules/controlLoginAndPassword.js'></script>
+<script src = 'myModules/renderingInformation.js'></script>
+<script src = 'myModules/registrationControl.js'></script>
+<script src = 'myModules/avtorizControl.js'></script>
+<script src = 'myModules/mainMenyFunctions.js'></script>
+
+</body>
+</html>
