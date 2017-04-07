@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Cruel battle</title>
+	<link rel = "stylesheet" type = "text/css" href = "Styles/style.css"/>
+</head>
+<body>
+
+<div id = 'Main_box'>
+	<br>
+	<img id = 'titlePic' src = 'Images/mainImg' width = '600px' height = '150px'>
+	<hr>
+	
+	<canvas width = '600px' height = '600px' style = "display:none" id='can'></canvas>
+	
+	<br>
+	<div align = 'center'>
+		<h2>
+			<span id = 'myHeader'>Добро пожаловать</span>
+		</h2>
+	</div>
+	
+	<div id = 'box1'>
+			<br>
+			<input type = 'button' value = 'Войти в аккаунт' class = 'btn' onclick = 'show(2)'>
+			<br>
+			<br>
+			<input type = 'button' value = 'Регистрация' class = 'btn' onclick = 'show(3)'>
+	</div>
+	
+	<br>
+	<b>
+		<div id = 'message'></div>
+	</b>
+	
+	<br>
+	<br>
+	
+	<div id = 'box2' style = 'display:none'>
+			<p>Логин</p>
+			<input type = 'text' id = 'edit1' class = 'imp' spellcheck = 'false' maxlength = '30' autocomplete = 'off' placeholder = 'Max_Killer_1996'>
+			<br>
+			<p>Пароль</p>
+			<input type = 'password' id = 'edit2' class = 'imp' spellcheck = 'false' maxlength = '30'  autocomplete = 'off' placeholder = 'maxKK1234zZ'>
+			<br>
+			<br>
+			<br>
+			<input type = 'button' value = 'Войти в аккаунт' class = 'btn' onclick = 'avt()'>
+			<br>
+			<br>
+			<input type = 'button' value = 'Вернуться' class = 'btn'  onclick = 'show(1)'>
+	</div>
+	
+	<div id = 'box3' style = 'display:none'>
+			<p>Логин</p>
+			<input type = 'text' id = 'edit3' class = 'imp' spellcheck = 'false' maxlength = '30' autocomplete = 'off' placeholder = 'Max_Killer_1996'>
+			<br>
+			<p>Пароль</p>
+			<input type = 'password' id = 'edit4' class = 'imp' spellcheck = 'false' maxlength = '30'  autocomplete = 'off' placeholder = 'maxKK1234zZ'>
+			<br>
+			<br>
+			<br>
+			<input type = 'button' value = 'Зарегистрироваться' class = 'btn' onclick = 'reg()'>
+			<br>
+			<br>
+			<input type = 'button' value = 'Вернуться' class = 'btn'  onclick = 'show(1)'>
+	</div>
+	
+	<div id = 'box4' style = 'display:none'> </div>
+	
+</div>
+
+<script src = "Modules/globalVars.js"></script>
+<script src = 'Modules/proverStrings.js'></script>
+<script src = 'Modules/registModule.js'></script>
+<script src = 'Modules/avtorizModule.js'></script>
+<script src = "Modules/addObjectsToStage.js"></script>
+<script src = "Modules/renderElements.js"></script>
+<script src = "Modules/hitElements.js"></script>
+<script src = "Modules/moveElements.js"></script>
+<script src = "Modules/deleteElements.js"></script>
+<script src = "Modules/isHeroDead.js"></script>
+<script src = "Modules/intervalFunctions.js"></script>
+<script src = "Modules/vectorOfMoving.js"></script>
+<script src = "Modules/levelsModule.js"></script>
+<script src = "Modules/onLoadThisPage.js"></script>
+
+</body>
+</html>
