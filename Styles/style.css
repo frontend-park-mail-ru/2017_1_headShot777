@@ -1,0 +1,65 @@
+		
+		body
+		{
+			font-family: Tahoma;
+			font-size: 20px;
+			color: white;
+			background: URL("../Images/back.png");
+		}
+		
+		.btn
+		{
+			font-size: 20px;
+			border-style: solid;
+			border-color: #666666;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			outline: none;
+			border-radius: 50px 50px 50px 50px;
+			background-color: #CCCCCC;
+			cursor: pointer;
+			width: 600px;
+		}
+		
+		.imp
+		{
+			font-size: 20px;
+			border-style: solid;
+			border-color: #666666;
+			border-radius: 5px 5px 5px 5px;
+			outline: none;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 500px;
+		}
+
+
+		.btn:hover
+		{
+			background-color: #999999;
+			color: white;
+		}
+	
+		#Main_box
+		{
+			margin: 0 auto;
+			width: 600px;
+			z-index: -10;
+		}
+		
+		.list
+		{
+			cursor: pointer;
+		}
+		
+		.list:hover
+		{
+			cursor: pointer;
+			color: #CCCCCC;
+		}
+		
+		
