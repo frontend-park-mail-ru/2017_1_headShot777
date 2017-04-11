@@ -1,20 +1,16 @@
 {
-  "name": "my_package",
-  "version": "1.1.1",
-  "description": "my_web_proga",
-  "main": "index.html",
-  "dependencies": {
-    "express": "^4.15.2"
-  },
-  "devDependencies": {},
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "yes",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/maxim/my_package.git"
-  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
 }
